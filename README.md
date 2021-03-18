@@ -32,22 +32,23 @@ By using web crawler got the data and stored them in data base and founf the ana
 
 
 
-TOKENIZATION
+# TOKENIZATION
 
-STOPWORD EXTRACTION
+# STOPWORD EXTRACTION
 
-STEMMING
+# STEMMING
 
-POS TAGGING
+# POS TAGGING
 
-CHUNKING&CHINNING
+# CHUNKING&CHINNING
 
-ENTITY EXTRACTION
+# ENTITY EXTRACTION
 
 
-After getting key woards found out sentiment analysis using sentiment intensity analizer by using VADAR:
+After getting key woards found out sentiment analysis using sentiment intensity analizer by using - 
 
-# VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically used to sentiments expressed in social media. VADER uses a combination of A sentiment lexicon is a list of lexical features (e.g., words) which are generally labelled according to their semantic orientation as either positive or negative.
+# VADAR:
+VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically used to sentiments expressed in social media. VADER uses a combination of A sentiment lexicon is a list of lexical features (e.g., words) which are generally labelled according to their semantic orientation as either positive or negative.
 
 
 
