@@ -3,6 +3,7 @@
 # Data:-
 
 1)From twitter
+
 2)From various new articles like hindu,timesofindia etc...
 
 
@@ -23,17 +24,24 @@ Result something like this pos:- 0.08 neg:-0.01 neu:-0.01 for all the tweets.
 
 By using web crawler got the data and stored them in data base and founf the analaysis.
 1.web crawling is done using beautifulsoup.
+
 2.connected sqlite database to python to store data from crawlers.
+
 3.Data pre-processing is done using Nltk, where we have these following techniques to find keywords.
 
 
 
 
 TOKENIZATION
+
 STOPWORD EXTRACTION
+
 STEMMING
+
 POS TAGGING
+
 CHUNKING&CHINNING
+
 ENTITY EXTRACTION
 
 
@@ -46,12 +54,19 @@ After getting key woards found out sentiment analysis using sentiment intensity 
 
 
 After using VADAR we get sentiment for every word we get something like this:
+
 {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
 {'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.296}
+
 {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
 {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
 {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
 {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
 {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 
 
